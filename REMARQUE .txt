@@ -1,0 +1,6 @@
+-Les # representent les commentaires
+-Il n'ya pas de points virgule à la fin des insertions 
+-Dans la creations des tables pour ajouter des clés etrangeres on ajoute à la fin les Foreing Key
+-Il faut toujours vérifier que le nombre de donnée d'entrée correspond au nombre de colonnes
+- Dans une requete quand on met AS la lettre de la table dans la clause where on a plus besoin de 
+de réecrire le nom de la table entirement 
