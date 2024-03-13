@@ -5,3 +5,7 @@
 - Dans une requete quand on met AS la lettre de la table dans la clause where on a plus besoin de 
 de réecrire le nom de la table entirement 
 - Auto_increment permet de : 
+- Les differents types de données en sql sont :
+- Pour inserer le type string est ce que j'ai besoin des cotes?
+- Pour inserer le type int est ce qu'il faut utuliser les doubles cotes ?
+ - De maniére génerale comment utilise t-on les doubles cotes dans une requete insertion de donnée
