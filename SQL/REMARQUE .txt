@@ -1,11 +1,20 @@
--Les # representent les commentaires
+-Les # representent les commentaires 
+
 -Il n'ya pas de points virgule à la fin des insertions 
+
 -Dans la creations des tables pour ajouter des clés etrangeres on ajoute à la fin les Foreing Key
+
 -Il faut toujours vérifier que le nombre de donnée d'entrée correspond au nombre de colonnes
+
 - Dans une requete quand on met AS la lettre de la table dans la clause where on a plus besoin de 
 de réecrire le nom de la table entirement 
-- Auto_increment permet de : 
-- Les differents types de données en sql sont :
-- Pour inserer le type string est ce que j'ai besoin des cotes?
-- Pour inserer le type int est ce qu'il faut utuliser les doubles cotes ?
- - De maniére génerale comment utilise t-on les doubles cotes dans une requete insertion de donnée
+                  
+- Auto_increment permet de : pécifier qu’une colonne numérique avec une clé primaire (PRIMARY KEY) sera incrémentée
+ automatiquement à chaque ajout d’enregistrement dans celle-ci.
+
+-  Les differents types de données en sql sont : Le type Int(entier), Varchar(), Date, Boolean(Vrai ou Faux), float(chiffre avec virgule)
+Time(temps), Char
+
+- Pour inserer le type string est ce que j'ai besoin des cotes?  Les doubles quotes sont généralement utilisées pour encadrer 
+les valeurs de type chaîne de caractères (VARCHAR, TEXT, etc.) lors de l'insertion de données. Cela indique à la base de données que la valeur entre 
+les guillemets est une chaîne de caractères et doit être traitée en conséquence. Voici un exemple simple d'une requête d'insertion utilisant des doubles quotes :
