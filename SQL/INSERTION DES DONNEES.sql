@@ -106,3 +106,54 @@ USE exo9_cinema;
 INSERT INTO Projection VALUES ('1', '1','25','4'),
                           ('2','2','18','8'),
                           ('3','3','50','2')
+
+
+
+
+
+USE exo10_Tour_De_France;
+INSERT INTO Equipe VALUES (1, 'Festina','Manny'),
+                          (2,'Juba','Ngombi'),
+                          (3,'Festival','Mahmoud')
+
+
+
+
+USE exo10_Tour_De_France;
+INSERT INTO Pays VALUES (1, 'France'),
+                          (2,'Canada'),
+                          (3,'Allemagne')
+
+
+ USE exo10_Tour_De_France;
+INSERT INTO Coureur VALUES (1,'Lamharchi',1,1),
+                          (2,'Koffi',2,2),
+                          (3,'Kofin',3,3)
+
+
+
+USE exo10_Tour_De_France;
+INSERT INTO Type_Etape VALUES (1, 'Haute_Montagne'),
+                          (2,'Basse_Montage'),
+                          (3,'Pleine')
+
+
+
+USE exo10_Tour_De_France;
+INSERT INTO Etape VALUES (13, ,2024-08-16,'Paris','Lyon',16,1),
+                          (20,2024-02-22,'Berlin','Belgique',30,2),
+                          (14,2024-03-05,'Mousco','Thionville',50,3)    
+
+
+ USE exo10_Tour_De_France;
+ INSERT INTO Participer VALUES (1, 13,'4h'),
+                          (2,20,'2h'),
+                          (3,14,'1h')   
+
+
+
+USE exo10_Tour_De_France;
+INSERT INTO Attribuer_Bonification VALUES (13, ,1,100,5,180),
+                          (20,2,70,15,120),
+                          (14,3,200,7,190)                                             
+                         

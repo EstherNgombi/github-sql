@@ -168,6 +168,27 @@ SELECT
 
 
 
+ #BASE DE DONNEE  exo10_Tour_De_France;
+
+ #Exprimez en SQL les requetes suivantes
+
+#Quelle est la composition de léquipe Festina (Numéro, nom et pays des coureurs) ?
+SELECT NumeroCoureur, NomCoureur, NomPays FROM Equipe AS E INNER JOIN Coureur AS C ON C.CodeEquipe = E.CodeEquipe
+INNER JOIN Pays AS P ON C.CodePays = P.CodePays WHERE NomEquipe = "Festina";
+
+
+SELECT NumeroCoureur , NomCoureur , NomPays FROM EQUIPE A, COUREUR B, PAYS C 
+WHERE A.CodeEquipe=B.CodeEquipe And B.CodePays=C.CodePays And NomEquipe="FESTINA"
+
+#Quel est le nombre de kilomètres total du Tour de France 97 ?
+SELECT SUM(NbKm) FROM Etape;
+
+#Quel est le nombre de kilomètres total des étapes de type "Haute Montagne" ?
+SELECT SUM(NbKm) FROM Etape AS E sINNER JOIN Type_Etape AS T  ON E.CodeType =T.CodeType
+WHERE LibelleType = "Haute_Montagne"; 
+
+
+
   I
 
  
