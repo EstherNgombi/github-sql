@@ -1,1 +1,2 @@
-- Pull permet de:
+- Pull permet de:Mettez à jour votre branche de travail locale avec les validations de la télécommande 
+et mettez à jour toutes les branches de suivi à distance.
