@@ -1,2 +1,5 @@
 - Pull permet de:Mettez à jour votre branche de travail locale avec les validations de la télécommande 
 et mettez à jour toutes les branches de suivi à distance.
+
+- Comment creer un nouveau projet dans github: Pour creer un nouveau projet on clique sur le +(create new) en haut à droite
+puis sur new repository 
