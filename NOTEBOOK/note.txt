@@ -1,4 +1,5 @@
-Cahier de charge : 
+                                                                      Cahier de charge : 
+
  La société Wepoc technologie solicite Mme NYAKE expert en Data Analyst pour pouvoir analyser la consommation en carburant
 des véhicules de la société. En effet chaque conducteur rapporte une facture de carburant au service de la comptabilité de la société
 après chaque mission; pour avoir une tracabilité des frais de consommation de chaque chauffeur il a été demandé à lexpert 
@@ -14,3 +15,9 @@ utiles pour le travail demandé.
 - Un notebook contenant l'analyse univariée et Bivariée 
 - Un rapport powerbi avec un diagramme contenant le montant des consommations en carburant par mois et le chiffre d'affaire annuel
 consommé en carburant  
+
+
+
+
+
+Mettre dans la payement 
