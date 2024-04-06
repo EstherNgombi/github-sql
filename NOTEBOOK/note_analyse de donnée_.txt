@@ -1,0 +1,17 @@
+Après avoir nettoyer les données le rendre de bonne qualité, la 1ere question qu'on doit absolument répondre est celle de savoir?
+A quoi ressemble l'individu moyen de ma table et surtout comment se distingue les autres indivudus par rapport à cet individu moyen 
+c'est ce qu'on appelle les analyses univariées.
+
+Lorqu'on analyse la relation entre deux variables quantitatives,le reflexe qu'on doit avoir c'est commencer par une analyse visuelle 
+ie analyser le nuage des points de 2 variables.
+
+Le test de correlation de pearson entre variables quantitatives mesure la relation linéaire  qui existe entre deux  variables
+
+On a 3 conditions pour l'utilisation de la correlation de pearson: 
+- La variable doit etre quantitative et continue
+- la distribution des deux variables doit  etre normale 
+
+Lorsqu'on calcule le coef de correlation de pearson, on a une valeur qui doit etre comprise entre -1 et 1 , plus cette valeur
+est elevée plus la correlation entre les variables est forte 
+
+On ne parle pas de correlation sur les varaibles qualitatives   

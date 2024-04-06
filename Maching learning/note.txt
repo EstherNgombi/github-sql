@@ -1,0 +1,18 @@
+Il existe 3  types de modèles  recommandations parmis lesquels :
+
+- le model based : Le model based  qui est plus exploité par les algorithmes de maching learning et donc qui nécessite un temps 
+d'apprentissage ce qui implique que le recommandation peut prendre du temps à etre faite  , ce modèle n'est dc pas efficace pour 
+les besoins business qui necessite du temps réel dc une recommandation immediate à l'instant t  par contre elle est utile 
+pour des prédictions et recommandations des evenement à venir sur une longue durée 
+exple : Prediction des assurances  
+ 
+-item based  : Qui se base sur des données de produit pour faire des recommandations, le produit peut  ainsi avoir plusieurs 
+caractéristiques et etre regreoupé avec plusieurs autres produits qui ont les  memes caractéristiques 
+la recommandation dans ce modèle sera basé donc sur le groupe de produit ayant les meme caractéristiques qu'un produit deja consommé 
+ce modèle peut donc etre  exploité en temps réel basé sur des requetes not only sql(no sql)
+
+- User based : Le user based  qui se base sur des utilisateurs pour faire des recommandations, il est plus rapide que les 2 autres systemes de recommandation ,il peut prendre quelques secondes pour faire 
+des 
+ce modèle peut donc etre  exploité en temps réel basé sur des requetes  sql(modèle relationnel)pour cela il utilise des requetes sql et des bases de données  en graphe  pour faire des recommadations 
+
+ Conclusion: Pour faire des recommandations les entreprises utilisent tous les trois modèles de systèmes de recommanadations 
